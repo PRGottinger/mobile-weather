@@ -63,6 +63,8 @@ h1 {
 color: #f8f8f8
 }
 
+
+
 .container {
   max-width: 700px;
   height: 700px;
@@ -75,11 +77,16 @@ color: #f8f8f8
   justify-content: space-between;
 }
 
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
 .app .description {
   position: relative;
-  right: -90%;
+  /* right: -90%; */
   transform-origin: 0 0;
-  transform: rotate(269deg)
+  /* transform: rotate(269deg) */
 }
 
 .app .bottom {
